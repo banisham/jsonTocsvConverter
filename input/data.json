@@ -1,0 +1,28 @@
+[
+  {
+    "entityId": "12345",
+    "entityInstanceId": "global",
+    "LOB": "CCIB",
+    "platform": "onprem",
+    "appRoleCount": 1,
+    "tlsCount": 0,
+    "dbAssetCount": 1,
+    "dbAccountsOnboardedCount": 4,
+    "dbAccountsOffboardedCount": 0,
+    "staticSecretsOnboardedCount": 4,
+    "staticSecretsOffboardedCount": 4
+  },
+  {
+    "entityId": "789012",
+    "entityInstanceId": "global",
+    "LOB": "CPBB",
+    "platform": "onprem",
+    "appRoleCount": 1,
+    "tlsCount": 0,
+    "dbAssetCount": 1,
+    "dbAccountsOnboardedCount": 4,
+    "dbAccountsOffboardedCount": 0,
+    "staticSecretsOnboardedCount": 4,
+    "staticSecretsOffboardedCount": 4
+  }
+]
