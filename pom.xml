@@ -25,7 +25,12 @@
             <version>3.8.1</version>
         </dependency>
 
-
+        <!-- Spring Boot dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
 
         <!-- Jackson dependencies for YAML parsing -->
         <dependency>
@@ -73,7 +78,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.sc.hcv.JSONToExcel</mainClass> <!-- Replace with your main class path -->
+                            <mainClass>com.sc.hcv.JSONToExcelUtility</mainClass> <!-- Replace with your main class path -->
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -7,7 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
 
-public class JSONToExcel {
+public class JSONToExcelUtility {
 
     public static void main(String[] args) {
         // Check if we have the required arguments

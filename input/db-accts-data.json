@@ -1,0 +1,30 @@
+[
+  {
+    "entityId": "12345",
+    "entityName": "Test App 1",
+    "sBIARating": "4",
+    "entityInstance": "global",
+    "lob": "CCIB",
+    "platform": "onprem",
+    "dbType": "Oracle",
+    "hostName": "test1.dev.sc.com",
+    "port": "1506",
+    "dbAcctName": "test-acct",
+    "oracleServiceName": "test-db-svc",
+    "mssqlInstanceName": ""
+  },
+  {
+    "entityId": "789012",
+    "entityName": "Test App 2",
+    "sBIARating": "5",
+    "entityInstanceId": "SG",
+    "lob": "CPBB",
+    "platform": "onprem",
+    "dbType": "MSSQL",
+    "hostName": "test10.dev.sc.com",
+    "port": "1400",
+    "dbAcctName": "mssql-acct",
+    "oracleServiceName": "",
+    "mssqlInstanceName": "db-instance1"
+  }
+]
