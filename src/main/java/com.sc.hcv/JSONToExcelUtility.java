@@ -1,5 +1,6 @@
 package com.sc.hcv;
 
+import com.sc.hcv.utils.JsonToExcelConstants;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.apache.poi.ss.usermodel.*;
@@ -23,7 +24,7 @@ public class JSONToExcelUtility {
 
     public static void convertJSONToExcel(String inputJsonPath, String outputExcelPath) {
         // Read JSON from resources
-        String jsonInput = readFromFile(inputJsonPath);
+        String jsonInput = readHCVOnboardingDataFromJson();
         JSONArray jsonArray = new JSONArray(jsonInput);
 
         try (Workbook workbook = new XSSFWorkbook()) {
@@ -90,7 +91,8 @@ public class JSONToExcelUtility {
         }
     }
 
-    public static String readFromFile(String filePath) {
+    private static String readHCVOnboardingDataFromJson () {
+        String filePath = JsonToExcelConstants.HCV_ONBOARDED_DATA_JSON_INPUT;
         StringBuilder result = new StringBuilder();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
@@ -107,5 +109,7 @@ public class JSONToExcelUtility {
 
         return result.toString();
     }
+
+
 }
 

@@ -43,7 +43,7 @@ class JsonToExcelReportingController {
         try {
 
             // Call to the actual API which should return the data as a collection of Map
-            result = parseJSONFromFile("input/db-accts-data.json");
+            result = parseJSONFromFile("input/hcv-onboarded-data.json");
              result.forEach(map -> System.out.println(map));
 
             XSSFWorkbook workbook = new XSSFWorkbook();
